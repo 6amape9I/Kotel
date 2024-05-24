@@ -20,6 +20,7 @@ class DownRec {
     //нахождение количества делителей числа
     fun countDividers(n:Int):Int = dividersRec(n, 0, 1, {k:Int, m:Int -> m<=k}, {k:Int, m:Int, l:Int -> if(k%m==0) l+1 else l})
 
+
 }
 
 fun main() {
